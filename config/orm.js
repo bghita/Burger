@@ -1,5 +1,6 @@
 const connection = require("./connection.js");
 
+
 const orm = {
     homePage: (req, res) => {
         res.render("index")
@@ -11,7 +12,7 @@ const orm = {
             let newItems = [];
             let eatenItems = [];
             let leftSectionHeader = "Try a New Burger!";
-            let rightSectionHeader = "Already Eaten!";
+            let rightSectionHeader = "Good Burgers Eaten!";
             let col1 = "Item #";
             let col2 = "Burger Name";
             let col3 = "Devoured?";
@@ -19,7 +20,7 @@ const orm = {
                 burgers.push({
                     Item: item.id,
                     Burger: item.burger_name,
-                    Devoured: (item.devoured === 0) ? "nope" : "oh yeah!"
+                    Devoured: (item.devoured === 0) ? "Not Yet" : "Yes"
                 })
                 if (item.devoured === 0) {
                     newItems.push({

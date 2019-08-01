@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+}
+
+.main-content {
+    margin-bottom: -400px;
+    font-family: 'La Belle Aurore', cursive;
+    
+}
+
+.push {
+    height: 400px;
+}
