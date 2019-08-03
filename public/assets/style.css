@@ -8,9 +8,12 @@ html, body {
 .main-content {
     margin-bottom: -400px;
     font-family: 'La Belle Aurore', cursive;
-    
+    color:red;
 }
 
 .push {
     height: 400px;
+}
+.head{
+    color:red;
 }
