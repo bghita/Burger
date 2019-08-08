@@ -14,7 +14,6 @@ app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
 app.use(routes);
-
 app.listen(PORT, () => {console.log("Server listening on http://localhost:" + PORT)});
 
 if (process.env.NODE_ENV === "production") {
