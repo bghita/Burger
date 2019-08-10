@@ -8,7 +8,8 @@ html, body {
 .main-content {
     margin-bottom: -400px;
     font-family: 'La Belle Aurore', cursive;
-    color:red;
+    background-image: url("./images/1.jpg");
+    color:orange;
 }
 
 .push {
