@@ -1,6 +1,6 @@
 
 <h1 class="head">Welcome to Good Burger</h1>
-<h5>Home of the the Good Burger</h5>
+<h4 class="head2">Home of the the Good Burger</h4>
 
 <div class="container">
 
@@ -17,7 +17,7 @@
             {{/each}}
         </div>
 
-        <div class="col-md-4 col-sm-4 col-xs-4">
+        <div class="col-md-4 col-sm-4 col-xs-4" id="textbox">
             <form action="/insert" method="POST">
                 <textarea name="burger"> </textarea>
                 <button type="submit">Add a New Burger</button>
@@ -26,7 +26,7 @@
             <div id="menu">
                 <a href="/select"><button type="submit" id="menuBtn">All Burgers</button></a>
                 <br><br>
-                <table>
+                <table class="table1">
                     <thead>
                         <th><h5>{{col1}}</h5></th>
                         <th><h5>{{col2}}</h5></th>

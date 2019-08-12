@@ -1,20 +1,42 @@
 html, body {
     height: 100%;
     margin: 0 auto;
-    background-color: black;
     text-align: center;
 }
 
 .main-content {
     margin-bottom: -400px;
-    font-family: 'La Belle Aurore', cursive;
-    background-image: url("./images/1.jpg");
-    color:orange;
+    background-image: url("./images/3.jpg");
+    font-family: 'Questrial', sans-serif;
 }
 
 .push {
     height: 400px;
 }
 .head{
-    color:rgb(0, 4, 255);
+    color:rgb(255, 136, 0);
+    font-family: 'Righteous', cursive;
+}
+.head2{
+    font-family: 'Yellowtail', cursive;
+    padding-bottom: 50px;
+    color:rgb(211, 29, 29);
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+#new-items{
+    color:rgb(252, 250, 250);
+}
+#eaten-items{
+    color:rgb(252, 250, 250);
+}
+.menu{
+    color:rgb(252, 250, 250);
+}
+.table1{
+    color:rgb(252, 250, 250);
+}
+#textbox{
+    margin-top: 20px;
 }

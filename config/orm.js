@@ -14,7 +14,7 @@ const orm = {
             let leftSectionHeader = "Try a New Burger!";
             let rightSectionHeader = "Good Burgers Eaten!";
             let col1 = "Item #";
-            let col2 = "Burger Name";
+            let col2 = "Burger";
             let col3 = "Devoured?";
             data.forEach(item => {
                 burgers.push({
