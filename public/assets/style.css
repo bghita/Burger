@@ -15,6 +15,7 @@ html, body {
 }
 .head{
     color:rgb(255, 136, 0);
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
     font-family: 'Righteous', cursive;
 }
 .head2{
